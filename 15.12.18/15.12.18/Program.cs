@@ -1,8 +1,6 @@
 ﻿using System;
 
-namespace 
-
-{
+namespace Lala { 
 
     class Program
     {

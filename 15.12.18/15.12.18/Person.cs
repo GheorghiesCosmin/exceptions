@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace 15.12.18
-{
+
     public class Person
 {
     private int age;
@@ -30,5 +29,4 @@ namespace 15.12.18
     {
         this.Age = age;
     }
-}
 }
