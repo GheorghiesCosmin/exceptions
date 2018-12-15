@@ -2,31 +2,35 @@
 using System.Collections.Generic;
 using System.Text;
 
-
-    public class Person
+namespace _15._12._18
 {
-    private int age;
-
-    public int Age
+    public class Person
     {
+        private int age;
 
-        set
+        public int Age
         {
-            if (value < 0)
-            {
-                throw new ArgumentException("Can't be negative!", "Age");
-            }
-            if (value == 2 || value > 80)
-            {
-                throw new DressCodeExceptions();
-            }
+            get { return this.age; }
 
-            this.age = value;
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Can't be negative!", "Age");
+                }
+                if (value == 2 || value > 80)
+                {
+                    throw new DressCodeExceptions();
+                }
+
+                this.age = value;
+            }
+        }
+
+        public Person(int age)
+        {
+            this.Age = age;
         }
     }
-
-    public Person(int age)
-    {
-        this.Age = age;
-    }
 }
+

@@ -1,16 +1,16 @@
 ﻿using System;
 
-namespace Lala { 
-
+namespace _15._12._18
+{
     class Program
     {
         static void Main(string[] args)
         {
             try
             {
-                Person person = new Person(15);
-                Person person1 = new Person(-1);
-               //Person person2 = new Person(2);
+                // Person person = new Person(15);
+                // Person person1 = new Person(-1);
+                // Person person2 = new Person(2);
                 Person person3 = new Person(81);
             }
             catch (ArgumentException e)
